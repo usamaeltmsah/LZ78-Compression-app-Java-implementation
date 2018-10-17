@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Compressor">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <enabled value="true"/>
+      <focusable value="true"/>
+      <minimumSize width="500" height="400"/>
+      <preferredSize width="200" height="200"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="d848e" class="javax.swing.JButton" binding="decompressButton" default-binding="true">
+        <constraints border-constraint="East"/>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Arial Black" size="17" style="1"/>
+          <foreground color="-458753"/>
+          <text value="Decompress"/>
+        </properties>
+      </component>
+      <component id="ca06c" class="javax.swing.JButton" binding="compressButon">
+        <constraints border-constraint="West"/>
+        <properties>
+          <background color="-4517632"/>
+          <enabled value="true"/>
+          <font name="Arial Black" size="18" style="1"/>
+          <foreground color="-1"/>
+          <text value="Compress"/>
+        </properties>
+      </component>
+      <component id="c4895" class="javax.swing.JButton" binding="loadFileButton" default-binding="true">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-1"/>
+          <enabled value="true"/>
+          <font name="Arial Black" size="20" style="1"/>
+          <text value="Load File"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
